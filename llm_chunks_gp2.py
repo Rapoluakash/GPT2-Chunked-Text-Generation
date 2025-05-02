@@ -7,7 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1FOB3TIUXpytjP7tJQC0GLc9uieEU_eyW
 """
 
-!nvidia-smi
+import os
+os.system("nvidia-smi")
+
 
 from google.colab import drive
 drive.mount('/content/drive')
