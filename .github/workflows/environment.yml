@@ -1,0 +1,11 @@
+name: llm-chunking-gpt2-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - transformers==4.39.3
+      - torch==2.2.2
+      - tensorflow==2.15.0
